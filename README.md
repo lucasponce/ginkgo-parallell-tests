@@ -8,6 +8,8 @@ ginkgo -p test test_sequential/
 ```
 
 ```
+Will run 24 of 24 specs
+Running in parallel across 23 processes
 [...]
 Ran 24 of 24 Specs in 250.200 seconds
 SUCCESS! -- 24 Passed | 0 Failed | 0 Pending | 0 Skipped
@@ -21,7 +23,10 @@ Test Suite Passed
 # Run the parallel approach (different tests could be run in parallel)
 ginkgo -p test test_parallel/
 ```
+
 ```
+Will run 24 of 24 specs
+Running in parallel across 23 processes
 [...]
 Ran 24 of 24 Specs in 30.008 seconds
 SUCCESS! -- 24 Passed | 0 Failed | 0 Pending | 0 Skipped
